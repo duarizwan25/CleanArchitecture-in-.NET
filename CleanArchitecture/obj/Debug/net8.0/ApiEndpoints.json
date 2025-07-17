@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CleanArchitecture.WebAPI.Controllers.StudentController",
+    "Method": "Register",
+    "RelativePath": "api/Student/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CleanArchitecture.WebAPI.DTOs.StudentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
