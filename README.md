@@ -4,15 +4,18 @@ This project demonstrates how to implement Clean Architecture in an ASP.NET Core
 
 ---
 
-## Project Structure
+## Folders & Files
 
-CleanArchitecture/
-├── Application/ # Application logic (UseCases, Interfaces)
-├── Core/ # Domain entities and core business logic
-├── Infrastructure/ # Infrastructure services (e.g., Data access, APIs)
-├── WebAPI/ # ASP.NET Core API layer (Controllers, DTOs)
-├── README.md # This file
-└── CleanArchitecture.sln
+| Path                  | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `Application/`         | Contains application logic, use cases, and service interfaces               |
+| `Core/`                | Domain layer – includes core business models and domain rules               |
+| `Infrastructure/`      | Infrastructure concerns – data access, external service integrations        |
+| `WebAPI/`              | ASP.NET Core API layer – controllers, DTOs, middleware, and startup config  |
+| `README.md`            | Project documentation                                                       |
+| `CleanArchitecture.sln`| Solution file to manage all projects                                        |
+
+This layout helps enforce a **decoupled, testable, and maintainable architecture** across the entire application lifecycle.
 
 ---
 
